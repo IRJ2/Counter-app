@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+*{
+    
+}
+body{
+    background-image: linear-gradient(to bottom right,rgba(0, 16, 171, 0.96) ,rgba(57, 255, 243, 1));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+#counting{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15vw;
+    height: 100px;
+    line-height: 100px;
+    padding: 5vw;
+    margin: 0;
+    vertical-align: center;
+    background: linear-gradient(to bottom right,rgba(0, 16, 171, 0.96) ,rgba(57, 255, 243, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.container{
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    height: 550px;
+    width: 414px;
+    margin: auto auto;
+    position: relative;
+    padding: 0;
+}
+/* button */
+.cost-button{
+    border: solid #0010AB 2px;
+    background-color: white;
+    border-radius: 73px;
+    height: 64px;
+    width: 329px;
+    display: block;
+    margin: auto auto;
+}
+.cost-button p{
+    float: left;
+    margin-left: 12px;
+    color: #0010AB;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.cost-button span div{
+    background-color: #0010AB;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 34px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.cost-button:hover{
+    background-color: #0010AB;
+}
+.cost-button:hover p{
+    color: white;
+}
+.cost-button:hover span div{
+    background-color: white;
+    color: #0010AB;
+}
+section{
+    margin: 0;
+}
+@media only screen and (max-width: 600px)  {
+    #counting{ 
+        font-size: 150px;
+    }
+}
